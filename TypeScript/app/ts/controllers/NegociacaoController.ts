@@ -1,5 +1,5 @@
 class NegociacaoController{
-    
+    //Testando
     private _inputData: HTMLInputElement;
     private _inputQuantidade: HTMLInputElement;
     private _inputValor: HTMLInputElement;
