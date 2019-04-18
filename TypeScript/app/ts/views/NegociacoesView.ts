@@ -1,4 +1,7 @@
-class NegociacoesView extends View<Negociacoes>{
+import { View } from '../views/View';
+import { Negociacoes } from '../models/Negociacoes'
+
+export class NegociacoesView extends View<Negociacoes>{
 
     update (model: Negociacoes): void {
         
