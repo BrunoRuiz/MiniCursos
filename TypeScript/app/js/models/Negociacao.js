@@ -23,6 +23,11 @@ System.register([], function (exports_1, context_1) {
             Valume    : ${this.volume}
             `);
                 }
+                ehIgual(obj) {
+                    return this.data.getDate() == obj.data.getDate()
+                        && this.data.getMonth() == obj.data.getMonth()
+                        && this.data.getFullYear() == obj.data.getFullYear();
+                }
             };
             exports_1("Negociacao", Negociacao);
         }
